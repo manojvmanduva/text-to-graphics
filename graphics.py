@@ -11,8 +11,8 @@ speed(10)
 
 
 hideturtle()
-t = textinput("Text to Display","abc")
-s = textinput("Text to Graphics","Enter your sentence")
+t = textinput("Text to Display","You see this on the output")
+s = textinput("Text to Graphics","Please remove special characters and Capital Letters")
 
 
 pensize(1)
@@ -47,6 +47,7 @@ while y < len(w):
         circle (p*5)
         right(45)
     end_fill()
+    tilt(90)
 
 penup()
 if len(w)>3:
